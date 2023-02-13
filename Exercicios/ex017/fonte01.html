@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* medidas absolutas
+                cm, mm, in, px, pt, pc
+
+            medidas relativas
+                em, ex, rem, vw, vh
+            recomendadas px e em
+            16px geralmente é igual a 1em
+            */
+            font-size: 15px;
+ 
+        }
+        h1{
+            /*font-family: 'Times New Roman', Times, serif;
+            font-weight:normal ;
+            
+            weight - peso, width - largura, height - altura
+            para o pese de algumas letras temos:display:
+            lighter normal bold bolder ou 100 até 900
+
+            font-style: italic;
+            text-decoration: underline;*/
+            
+            /*shorthand font
+            font-style -> font-weight -> font-size -> font-family*/
+
+            font: italic bolder 3em "work sans", sans-serif;
+        }
+        h2{
+            font:  bold 2em "work sans", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim aliquid officiis quam? Tenetur inventore sapiente magni praesentium odit commodi vitae deserunt alias quisquam, molestiae, ab ullam, dolore facilis est ad!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo blanditiis officia assumenda iste quas dolor libero natus! Voluptate, deserunt consectetur, fuga recusandae quae quia nisi odio placeat quos minus fugiat!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illum reiciendis libero, molestias qui nisi alias eveniet esse quisquam aspernatur excepturi. Corrupti exercitationem, non maxime impedit veritatis eveniet cumque tempore?</p>
+
+</body>
+</html>
